@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+
+.item {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Layout positioning */
+.item1 {
+  grid-column: 1 / 4;
+}
+
+.item2 {
+  grid-row: 2 / 6;
+}
+
+.item3 {
+  grid-column: 2;
+}
+
+.item4 {
+  grid-column: 3;
+}
+
+.item5 {
+  grid-column: 2 / 3;
+}
+
+.item6 {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.item7 {
+  grid-column: 2;
+}
+
+.item8 {
+  grid-column: 3;
+}
+
+.item9 {
+  grid-column: 3;
+}
+
+.item10 {
+  grid-column: 2 / 4;
+}
